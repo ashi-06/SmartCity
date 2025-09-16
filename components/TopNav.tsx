@@ -7,7 +7,7 @@ export default function TopNav() {
       <div className="max-w-6xl mx-auto px-6 h-14 flex items-center justify-between">
         <Link href="/" className="font-semibold">Smart City Connect</Link>
         <nav className="hidden sm:flex gap-6 text-sm">
-          <Link href="/">Home</Link>
+          <Link href="/home">Home</Link>
           <Link href="/services">Services</Link>
           <Link href="/weather">Weather</Link>
           <Link href="/sos">SOS</Link>
